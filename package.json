@@ -1,0 +1,10 @@
+{
+  "name": "json-buff",
+  "version": "0.0.1",
+  "description": "JSON parse that supports binary via bops & base64",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Usamaliaquat123/Json-Buff.git"
+  }
+}
