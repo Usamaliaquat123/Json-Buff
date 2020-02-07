@@ -19,11 +19,12 @@ JSON mangles buffers by converting to an array... which isn't helpful. json-buff
  var str = JSONB.stringify(Buffer.from('hello there!')) 
 
  console.log(JSONB.parse(str)) //GET a BUFFER back 
- 
-//If you are using yarn
- yarn add json-buff 
-
-//and 
-
+ ```
+If you are using yarn
+```js
+yarn add json-buff 
+```
+and 
+```js
  npm install json-buff 
 ```
