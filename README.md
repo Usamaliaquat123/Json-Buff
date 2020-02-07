@@ -1,7 +1,10 @@
 
-![rsz_jsn](https://user-images.githubusercontent.com/33973828/74006359-4ac67780-4930-11ea-9f61-0314a57bb51e.png?style=centerme)
-## JSON functions that can convert into buffers 🎉
-
+<h1 align="center">
+	<img width="500" src="https://user-images.githubusercontent.com/33973828/74024465-ccc99700-4956-11ea-9066-3b2dc2817ac0.png" alt="keyv">
+	<br>
+	<br>
+ <h2 align="center">JSON functions that can convert into buffers 🎉</h2>
+</h1>
 
 JSON mangles buffers by converting to an array... which isn't helpful. json-buffers converts to base64 instead, and deconverts base64 to a buffer.
 
