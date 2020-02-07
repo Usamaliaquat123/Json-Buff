@@ -5,11 +5,17 @@
 
 JSON mangles buffers by converting to an array... which isn't helpful. json-buffers converts to base64 instead, and deconverts base64 to a buffer.
 
-`
-var JSONB = require('json-buffer')
-var Buffer = require('buffer').Buffer
+` var JSONB = require('json-buff') `
+` var Buffer = require('buffer').Buffer `
 
-var str = JSONB.stringify(Buffer.from('hello there!'))
+` var str = JSONB.stringify(Buffer.from('hello there!')) `
 
-console.log(JSONB.parse(str)) //GET a BUFFER back
-`
+` console.log(JSONB.parse(str)) //GET a BUFFER back `
+ 
+
+If you are using yarn
+` yarn add json-buff `
+
+and 
+
+` npm install json-buff `
