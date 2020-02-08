@@ -7,7 +7,7 @@
  <h2 align="center">JSON functions that can convert into buffers 🎉</h2>
 </h1>
 
-JSON mangles buffers by converting to an array... which isn't helpful. json-buffers converts to base64 instead, and deconverts base64 to a buffer.
+JSON mangles buffers by converting to an array... which isn't helpful. json-buff converts to base64 instead, and deconverts base64 to a buffer.
 
 ` var JSONB = require('json-buff') `
 ` var Buffer = require('buffer').Buffer `
