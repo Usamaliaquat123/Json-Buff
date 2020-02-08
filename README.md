@@ -1,7 +1,8 @@
 
 <h1 align="center">
-	<img width="500" src="https://user-images.githubusercontent.com/33973828/74024465-ccc99700-4956-11ea-9066-3b2dc2817ac0.png" alt="keyv">
+	<img width="500" src="https://user-images.githubusercontent.com/33973828/74024465-ccc99700-4956-11ea-9066-3b2dc2817ac0.png" >
 	<br>
+	    <img src="https://img.shields.io/bundlephobia/min/json-buff">
 	<br>
  <h2 align="center">JSON functions that can convert into buffers 🎉</h2>
 </h1>
