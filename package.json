@@ -20,6 +20,8 @@
     "encode",
     "decode",
     "abstract-encoding",
-    "json"
+    "json",
+    "stringify",
+    "parse"
   ]
 }
