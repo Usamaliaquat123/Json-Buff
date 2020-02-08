@@ -6,5 +6,20 @@
   "license": "MIT",
   "repository": {
     "url": "https://github.com/Usamaliaquat123/Json-Buff.git"
-  }
+  },
+  "keywords": [
+    "key",
+    "value",
+    "store",
+    "cache",
+    "ttl",
+    "sql",
+    "mongodb",
+    "sequilize",
+    "json-buffer",
+    "encode",
+    "decode",
+    "abstract-encoding",
+    "json"
+  ]
 }
