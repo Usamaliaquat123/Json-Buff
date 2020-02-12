@@ -4,7 +4,7 @@
 	<br>
 	    <img src="https://img.shields.io/bundlephobia/min/json-buff">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Usamaliaquat123/Json-Buff">	
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/npm/dw/json-buff">
+	<img alt="npm download size" src="https://img.shields.io/npm/dw/json-buff">
 	<br>
  <h2 align="center">JSON functions that can convert into buffers 🎉</h2>
 </h1>

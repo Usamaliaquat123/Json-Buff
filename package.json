@@ -1,6 +1,6 @@
 {
   "name": "json-buff",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "JSON that supports binary via bops & base64",
   "main": "./src/app.js",
   "license": "MIT",
