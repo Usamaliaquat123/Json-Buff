@@ -8,8 +8,25 @@
  <h2 align="center">JSON functions that can convert into buffers 🎉</h2>
 </h1>
 
-JSON mangles buffers by converting to an array... which isn't helpful. json-buff converts to base64 instead, and deconverts base64 to a buffer.
+json-buff converts to base64 instead, and deconverts base64 to a buffer. 
 
+
+### API
+
+#### stringify(value)
+Converts to base64 instead.
+#### parse(str)
+Get a buffer.
+#### replace(val)
+replace implementation which turns every value that is a Buffer instance into an object.
+#### isArray(val)
+if the value is an arr return TRUE | FALSE
+#### isObject(val)
+if the value is an object return TRUE | FALSE
+#### isString(val)
+if the value is an string return TRUE | FALSE
+#### isBufferLike(val)
+if the value is an buffer return TRUE | FALSE
 
 ``` js
 
