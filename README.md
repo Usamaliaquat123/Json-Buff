@@ -11,22 +11,7 @@
 json-buff converts to base64 instead, and deconverts base64 to a buffer. 
 
 
-### API
 
-#### stringify(value)
-Converts to base64 instead.
-#### parse(str)
-Get a buffer.
-#### replace(val)
-replace implementation which turns every value that is a Buffer instance into an object.
-#### isArray(val)
-if the value is an arr return TRUE | FALSE
-#### isObject(val)
-if the value is an object return TRUE | FALSE
-#### isString(val)
-if the value is an string return TRUE | FALSE
-#### isBufferLike(val)
-if the value is an buffer return TRUE | FALSE
 
 ``` js
 
@@ -46,3 +31,20 @@ and
 ```js
  npm install json-buff 
 ```
+
+### API
+
+#### stringify(value)
+Converts to base64 instead.
+#### parse(str)
+Get a buffer.
+#### replace(val)
+replace implementation which turns every value that is a Buffer instance into an object.
+#### isArray(val)
+is an arr ?  return TRUE | FALSE
+#### isObject(val)
+is an object ? return TRUE | FALSE
+#### isString(val)
+is an string ? return TRUE | FALSE
+#### isBufferLike(val)
+is an buffer ? return TRUE | FALSE
