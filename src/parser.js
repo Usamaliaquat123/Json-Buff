@@ -12,8 +12,46 @@ function parse(s){
         return value
     })
 } 
+// Support Replacer
+function replacer(key,value){
+    if(isBufferLike(value)){
+        if(isArray(value.data)){
+            if(value.data.length > 0){
+                value.data = 'base64:' + Buffer.from(value.data).toString('base64') 
+            }else{
+                value.data = ''
+            }
+        }
+    }
+    return value
+}
+
+function isBufferLike(x){
+    return (
+        isObject(x) && x.type === 'Buffer' && (isArray(x.data) || isString(x.data))
+    )
+}
+
+
+function isArray(x){
+    return Array.isArray(x)
+}
+
+function isString(x){
+    return typeof x === 'string'
+}
+
+function isObject(x){
+    return typeof x === 'object' && x !== null
+}
+
 
 
 module.exports = {
-    parse
+    parse,
+    replacer,
+    isArray,
+    isString,
+    isObject,
+    isBufferLike
 }

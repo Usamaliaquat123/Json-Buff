@@ -1,6 +1,13 @@
 
 import { stringify } from "./stringify";
-import { parse } from "./parser";
+import { parse,replacer, isArray, isString, isObject, isBufferLike} from "./parser";
 
-exports.parse = parse 
-exports.stringify = stringify
+module.exports = {
+    parse,
+    stringify,
+    replacer,
+    isArray,
+    isString,
+    isObject,
+    isBufferLike
+}
