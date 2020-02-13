@@ -25,6 +25,9 @@
     "isBufferLike",
     "stringify",
     "parse"
-  ]
-
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.4.2"
+  }
 }
